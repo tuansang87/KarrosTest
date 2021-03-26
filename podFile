@@ -1,0 +1,9 @@
+platform :ios, '11.0'
+use_frameworks!
+
+target 'KarrosTest' do
+  pod 'SwiftLint'
+  pod 'Alamofire', '~> 5.2'
+  pod 'SDWebImage', :modular_headers => true
+end
+
